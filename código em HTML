@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="faz fa-utemsils"></i></a>
+
+        <nav class="navbar">
+            <a class="active" href="#home"></a>
+            <a href="#pratos">pratos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#avaliacao">Avaliação</a>
+            <a href="#pedido">Pedido</a>
+
+
+    </nav>
+    <div class="icons">
+        <i class="fas fa-bars" id="manu-bars"></i>
+        <i class="fas fa-search" id="fas fa-heart"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+    </header>
+</body>
+</html>
