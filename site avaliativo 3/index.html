@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Sabor & Arte - Restaurante</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i> Sabor & Arte</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#pratos">Pratos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#avaliacao">Avaliação</a>
+            <a href="#pedido">Pedido</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <a href="#" class="fas fa-user-circle"></a>
+        </div>
+    </header>
+
+    <form action="#" id="search-form">
+        <input type="search" placeholder="Pesquise um prato..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close-search"></i>
+    </form>
+
+    <div class="search-message" id="search-message"></div>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <span>entrega rápida e saborosa</span>
+            <h1>Comida Fresca & <span>Deliciosa</span></h1>
+            <p>Ingredientes selecionados, preparo artesanal e muito sabor em cada prato. Peça agora e receba em casa!</p>
+            <div class="home-buttons">
+                <a href="#pedido" class="btn">Fazer Pedido</a>
+                <a href="#cardapio" class="btn-outline">Ver Cardápio</a>
+            </div>
+        </div>
+        <div class="home-image">
+            <img src="img/prato-principal.jpg" alt="prato principal">
+        </div>
+    </section>
+
+    <section class="pratos" id="pratos">
+        <h2 class="heading">Nossos <span>Pratos</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="img/risoto.jpg" alt="prato 1">
+                <h3>Risoto de Cogumelos</h3>
+                <p>Arroz arbóreo cremoso com cogumelos frescos e parmesão.</p>
+                <div class="price">R$ 39,90</div>
+                <button type="button" class="btn add-to-cart">Adicionar</button>
+            </div>
+
+            <div class="box">
+                <img src="img/salmao.png" alt="prato 2">
+                <h3>Salmão Grelhado</h3>
+                <p>Filé de salmão grelhado com legumes assados no azeite.</p>
+                <div class="price">R$ 49,90</div>
+                <button type="button" class="btn add-to-cart">Adicionar</button>
+            </div>
+
+            <div class="box">
+                <img src="img/hamburguer.jpeg" alt="prato 3">
+                <h3>Hambúrguer Artesanal</h3>
+                <p>Pão brioche, blend 180g, queijo e molho especial da casa.</p>
+                <div class="price">R$ 29,90</div>
+                <button type="button" class="btn add-to-cart">Adicionar</button>
+            </div>
+
+            <div class="box">
+                <img src="img/massa.jpg" alt="prato 4">
+                <h3>Massa ao Pesto</h3>
+                <p>Talharim fresco com molho pesto, tomate seco e castanhas.</p>
+                <div class="price">R$ 34,90</div>
+                <button type="button" class="btn add-to-cart">Adicionar</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="sobre-image">
+            <img src="img/restaurante.jpg" alt="restaurante">
+        </div>
+        <div class="sobre-content">
+            <span>quem somos</span>
+            <h2>Uma Paixão por <span>Boa Comida</span></h2>
+            <p>Há mais de 10 anos servindo pratos preparados com carinho e ingredientes frescos. Nosso objetivo é levar até você uma experiência gastronômica simples, mas cheia de sabor.</p>
+            <a href="#cardapio" class="btn">Conheça o Cardápio</a>
+        </div>
+    </section>
+
+    <section class="cardapio" id="cardapio">
+        <h2 class="heading">Nosso <span>Cardápio</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <h3>Entradas</h3>
+                <p>Bruschetta, Bolinho de Bacalhau, Carpaccio</p>
+            </div>
+            <div class="box">
+                <h3>Pratos Principais</h3>
+                <p>Risoto, Salmão, Hambúrguer, Massas</p>
+            </div>
+            <div class="box">
+                <h3>Sobremesas</h3>
+                <p>Petit Gateau, Pudim, Cheesecake</p>
+            </div>
+            <div class="box">
+                <h3>Bebidas</h3>
+                <p>Sucos naturais, Refrigerantes, Água</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="avaliacao" id="avaliacao">
+        <h2 class="heading">O que dizem <span>nossos clientes</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <p>"Comida excelente e entrega super rápida. Recomendo demais!"</p>
+                <h3>- Mariana Souza</h3>
+            </div>
+            <div class="box">
+                <p>"O melhor hambúrguer que já comi. Virei cliente fiel."</p>
+                <h3>- Carlos Lima</h3>
+            </div>
+            <div class="box">
+                <p>"Atendimento ótimo e pratos muito bem apresentados."</p>
+                <h3>- Fernanda Alves</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="pedido" id="pedido">
+        <h2 class="heading">Faça seu <span>Pedido</span></h2>
+
+        <form class="pedido-form" id="pedido-form">
+            <input type="text" placeholder="Seu nome" required>
+            <input type="tel" placeholder="Telefone" required>
+            <input type="text" placeholder="Endereço" required>
+            <textarea placeholder="O que você deseja pedir?" required></textarea>
+            <button type="submit" class="btn">Enviar Pedido</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-box">
+            <a href="#" class="logo"><i class="fas fa-utensils"></i> Sabor & Arte</a>
+            <p>Comida feita com carinho, todos os dias, direto pra sua casa.</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Links</h3>
+            <a href="#home">Home</a>
+            <a href="#pratos">Pratos</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#pedido">Pedido</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contato</h3>
+            <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+            <p><i class="fas fa-map-marker-alt"></i> Rua das Flores, 123</p>
+            <p><i class="fas fa-clock"></i> Seg a Dom - 11h às 23h</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Redes Sociais</h3>
+            <div class="footer-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <p>&copy; 2026 Sabor & Arte. Todos os direitos reservados.</p>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
